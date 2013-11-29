@@ -2,3 +2,10 @@
 *.pot
 *.pyc
 local_settings.py
+
+#Ignor datebase
+db.sqlite3
+
+#Ignor bootstrap and templates
+/static/
+/dj_project/templates/
