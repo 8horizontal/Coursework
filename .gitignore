@@ -7,5 +7,5 @@ local_settings.py
 db.sqlite3
 
 #Ignor bootstrap and templates
-/static/
-/dj_project/templates/
+/static
+/dj_project/templates
