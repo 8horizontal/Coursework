@@ -3,9 +3,9 @@
 *.pyc
 local_settings.py
 
-#Ignor datebase
-db.sqlite3
 
-#Ignor bootstrap and templates
-/static
-/dj_project/templates/dj_project/*.html
+#db.sqlite3
+
+
+/.idea
+#/dj_project/templates/dj_project/*.html
