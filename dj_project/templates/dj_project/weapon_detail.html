@@ -1,0 +1,11 @@
+{% extends 'dj_project/base.html' %}
+{% block content %}
+    <h2>{{ weapon.model }}</h2>
+    <p>{{ weapon.mark }}</p>
+    <p>{{ weapon.country }}</p>
+    <p>{{ weapon.title }}</p>
+    <p>Тактико-технические характеристики модели</p>
+    <p>{{ weapon.ttc}}</p>
+    <p>История модели</p>
+    <p>{{ weapon.history}}</p>
+{% endblock %}

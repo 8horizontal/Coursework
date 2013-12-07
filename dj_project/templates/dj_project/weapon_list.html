@@ -1,0 +1,11 @@
+{% extends 'dj_project/base.html' %}
+{% block content %}
+    {% for weapon in object_list %}
+        <p>{{ weapon.mark }}</p>
+        <h2><a href="{{ weapon.get_absolute_url }}">{{ weapon.model }}</a></h2>
+        <p>{{ weapon.country }}</p>
+    {% empty %}
+    <p>Нет постов</p>
+    {% endfor %}
+
+{% endblock %}
