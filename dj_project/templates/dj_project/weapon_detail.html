@@ -4,8 +4,8 @@
     <p>{{ weapon.mark }}</p>
     <p>{{ weapon.country }}</p>
     <p>{{ weapon.title }}</p>
-    <p>Тактико-технические характеристики модели</p>
-    <p>{{ weapon.ttc}}</p>
-    <p>История модели</p>
-    <p>{{ weapon.history}}</p>
+    <p style="color: blue">Тактико-технические характеристики модели</p>
+    <!--<p><a href="{{ weapon.get_url_ttc }}"><button class="btn">Открыть</button></a></p>-->
+    <p style="color: blue">История модели</p>
+    <p><a href="{{ weapon.get_url_history }}">{{ weapon.history }}</a></p>
 {% endblock %}

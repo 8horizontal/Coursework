@@ -4,7 +4,7 @@ from django.db import models
 
 class ModelWeapon(models.Model):
     title = models.CharField(max_length=30, verbose_name='Модель оружия')
-    ttc = models.TextField(max_length=20000, verbose_name='Тактико-технические характеристики')
+    ttc = models.TextField(verbose_name='Тактико-технические характеристики')
     history = models.TextField(verbose_name='История')
 
     class Meta:
@@ -13,6 +13,9 @@ class ModelWeapon(models.Model):
 
     def __unicode__(self):
         return self.title
+
+    def get_absolute_url(self):
+        return "/%d/" % self.id
 
 
 class ManufacturerWeapon(models.Model):
@@ -62,16 +65,17 @@ class Patron(models.Model):
         verbose_name_plural = 'Патроны'
 
     def __unicode__(self):
-        return self.title
+        return self.type_patron
 
 
 class Weapon(models.Model):
     title = models.CharField(max_length=50, verbose_name='Тип оружия')
-    mark = models.ForeignKey(ManufacturerWeapon, related_name='manufacturer', verbose_name='Производитель оружия')
+    mark = models.ForeignKey(ManufacturerWeapon, related_name='+', verbose_name='Производитель оружия')
     model = models.ForeignKey(ModelWeapon, related_name='model', verbose_name='Модель оружия')
-    patron = models.ForeignKey(Patron, related_name='patrons', verbose_name='Патрон')
-    country = models.ForeignKey(CountryFabricator, related_name='countris', verbose_name='Страна производитель')
-    history = models.ForeignKey(ModelWeapon, related_name='historis', verbose_name='История модели')
+    patron = models.ForeignKey(Patron, related_name='Weapon', verbose_name='Патрон')
+    country = models.ForeignKey(CountryFabricator, related_name='Weapons', verbose_name='Страна производитель')
+    history = models.ForeignKey(ModelWeapon,related_name='+', verbose_name='История модели')
+    ttc = models.ForeignKey(ModelWeapon,related_name='+', verbose_name='Тактико-технические характеристики')
 
     class Meta:
         verbose_name = 'Оружие'
@@ -82,3 +86,13 @@ class Weapon(models.Model):
 
     def get_absolute_url(self):
         return "/cw/%i/" % self.id
+
+    def get_url_ttc(self):
+        return "/cw/%i/%d/" % (self.id, self.ttc.get_absolut_url())
+
+    def get_url_history(self):
+        return "/cw/%i/%d/" % (self.id, self.history.id)
+
+
+
+
