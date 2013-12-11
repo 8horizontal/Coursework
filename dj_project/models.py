@@ -75,7 +75,7 @@ class Weapon(models.Model):
     patron = models.ForeignKey(Patron, related_name='Weapon', verbose_name='Патрон')
     country = models.ForeignKey(CountryFabricator, related_name='Weapons', verbose_name='Страна производитель')
     history = models.ForeignKey(ModelWeapon,related_name='+', verbose_name='История модели')
-    ttc = models.ForeignKey(ModelWeapon,related_name='+', verbose_name='Тактико-технические характеристики')
+    #ttc = models.ForeignKey(ModelWeapon,related_name='+', verbose_name='Тактико-технические характеристики')
 
     class Meta:
         verbose_name = 'Оружие'
@@ -87,8 +87,8 @@ class Weapon(models.Model):
     def get_absolute_url(self):
         return "/cw/%i/" % self.id
 
-    def get_url_ttc(self):
-        return "/cw/%i/%d/" % (self.id, self.ttc.get_absolut_url())
+    '''def get_url_ttc(self):
+        return "/cw/%i/%d/" % (self.id, self.ttc.get_absolut_url())'''
 
     def get_url_history(self):
         return "/cw/%i/%d/" % (self.id, self.history.id)

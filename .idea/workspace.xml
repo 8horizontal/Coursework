@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dj_project/templates/dj_project/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="60" selection-start="1564" selection-end="1613" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="930">
+            <state line="32" column="63" selection-start="1177" selection-end="1177" vertical-scroll-proportion="0.5195195" vertical-offset="307" max-vertical-offset="930">
               <folding />
             </state>
           </provider>
@@ -35,7 +35,7 @@
       <file leaf-file-name="weapon_list.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dj_project/templates/dj_project/weapon_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="59" selection-start="178" selection-end="185" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="240">
+            <state line="3" column="30" selection-start="123" selection-end="123" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="225">
               <folding />
             </state>
           </provider>
@@ -95,16 +95,16 @@
       <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dj_project/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="61" selection-start="2467" selection-end="2467" vertical-scroll-proportion="0.0" vertical-offset="900" max-vertical-offset="1560">
+            <state line="77" column="5" selection-start="2504" selection-end="2504" vertical-scroll-proportion="0.0" vertical-offset="990" max-vertical-offset="1560">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="38" selection-end="38" vertical-scroll-proportion="0.25210086" vertical-offset="0" max-vertical-offset="357">
+            <state line="11" column="0" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
               <folding />
             </state>
           </provider>
@@ -115,7 +115,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state line="5" column="14" selection-start="191" selection-end="191" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="165">
               <folding>
-                <element signature="e#101#120#0" expanded="true" />
+                <marker date="1386801361116" expanded="true" signature="108:119" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -137,16 +137,16 @@
         <option value="$PROJECT_DIR$/templates/dj_project/weapon_list.html" />
         <option value="$PROJECT_DIR$/manage.py" />
         <option value="$PROJECT_DIR$/Cw/settings.py" />
-        <option value="$PROJECT_DIR$/dj_project/templates/dj_project/weapon_list.html" />
         <option value="$PROJECT_DIR$/dj_project/templates/dj_project/search.html" />
         <option value="$PROJECT_DIR$/dj_project/templates/dj_project/history_model.html" />
         <option value="$PROJECT_DIR$/dj_project/views.py" />
-        <option value="$PROJECT_DIR$/dj_project/templates/dj_project/base.html" />
         <option value="$PROJECT_DIR$/dj_project/urls.py" />
         <option value="$PROJECT_DIR$/dj_project/templates/dj_project/weapon_detail.html" />
         <option value="$PROJECT_DIR$/dj_project/templates/dj_project/modelweapon_detail.html" />
-        <option value="$PROJECT_DIR$/dj_project/models.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/dj_project/models.py" />
+        <option value="$PROJECT_DIR$/dj_project/templates/dj_project/weapon_list.html" />
+        <option value="$PROJECT_DIR$/dj_project/templates/dj_project/base.html" />
       </list>
     </option>
   </component>
@@ -622,13 +622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dj_project/templates/dj_project/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="60" selection-start="1564" selection-end="1613" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="930">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dj_project/templates/dj_project/search.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="105">
@@ -654,13 +647,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dj_project/templates/dj_project/weapon_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="59" selection-start="178" selection-end="185" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="240">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dj_project/templates/dj_project/weapon_detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="6" selection-start="351" selection-end="392" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="240">
@@ -670,25 +656,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dj_project/templates/dj_project/modelweapon_detail.html">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="14" selection-start="191" selection-end="191" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="165">
-          <folding>
-            <element signature="e#101#120#0" expanded="true" />
-          </folding>
+        <state line="11" column="0" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dj_project/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="61" selection-start="2467" selection-end="2467" vertical-scroll-proportion="0.0" vertical-offset="900" max-vertical-offset="1560">
+        <state line="77" column="5" selection-start="2504" selection-end="2504" vertical-scroll-proportion="0.0" vertical-offset="990" max-vertical-offset="1560">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/dj_project/templates/dj_project/modelweapon_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="38" selection-end="38" vertical-scroll-proportion="0.25210086" vertical-offset="0" max-vertical-offset="357">
+        <state line="5" column="14" selection-start="191" selection-end="191" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="165">
+          <folding>
+            <marker date="1386801361116" expanded="true" signature="108:119" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dj_project/templates/dj_project/weapon_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="30" selection-start="123" selection-end="123" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dj_project/templates/dj_project/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="63" selection-start="1177" selection-end="1177" vertical-scroll-proportion="0.5195195" vertical-offset="307" max-vertical-offset="930">
           <folding />
         </state>
       </provider>
