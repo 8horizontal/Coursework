@@ -5,7 +5,7 @@ from django.db import models
 class ModelWeapon(models.Model):
     title = models.CharField(max_length=30, verbose_name='Модель оружия')
     ttc = models.TextField(verbose_name='Тактико-технические характеристики')
-    history = models.TextField(verbose_name='История')
+    history = models.TextField(verbose_name='История модели')
 
     class Meta:
         verbose_name = 'Модель оружия'
@@ -71,11 +71,10 @@ class Patron(models.Model):
 class Weapon(models.Model):
     title = models.CharField(max_length=50, verbose_name='Тип оружия')
     mark = models.ForeignKey(ManufacturerWeapon, related_name='+', verbose_name='Производитель оружия')
-    model = models.ForeignKey(ModelWeapon, related_name='model', verbose_name='Модель оружия')
-    patron = models.ForeignKey(Patron, related_name='Weapon', verbose_name='Патрон')
-    country = models.ForeignKey(CountryFabricator, related_name='Weapons', verbose_name='Страна производитель')
-    history = models.ForeignKey(ModelWeapon,related_name='+', verbose_name='История модели')
-    #ttc = models.ForeignKey(ModelWeapon,related_name='+', verbose_name='Тактико-технические характеристики')
+    model = models.ForeignKey(ModelWeapon, related_name='+', verbose_name='Модель оружия')
+    patron = models.ForeignKey(Patron, related_name='weapons', verbose_name='Патрон')
+    country = models.ForeignKey(CountryFabricator, related_name='weapons', verbose_name='Страна производитель')
+    history = models.ForeignKey(ModelWeapon, related_name='+', verbose_name='История модели')
 
     class Meta:
         verbose_name = 'Оружие'
@@ -86,9 +85,6 @@ class Weapon(models.Model):
 
     def get_absolute_url(self):
         return "/cw/%i/" % self.id
-
-    '''def get_url_ttc(self):
-        return "/cw/%i/%d/" % (self.id, self.ttc.get_absolut_url())'''
 
     def get_url_history(self):
         return "/cw/%i/%d/" % (self.id, self.history.id)

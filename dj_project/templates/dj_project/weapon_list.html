@@ -1,7 +1,7 @@
 {% extends 'dj_project/base.html' %}
 {% block content %}
     {% for weapon in object_list %}
-        <p style="font-size: 30px"><a href="{{ weapon.get_absolute_url }}">{{ weapon.model }}</a></p>
+        <h2><a href="{{ weapon.get_absolute_url }}">{{ weapon.model }}</a></h2>
         <p>{{ weapon.mark }}  {{ weapon.country }}</p>
     {% empty %}
     <p>Нет постов</p>
