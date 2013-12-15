@@ -3,6 +3,7 @@ from __future__ import unicode_literals
 from django.db import models
 
 
+
 class ModelWeapon(models.Model):
     title = models.CharField(max_length=30, verbose_name='Модель оружия')
     ttc = models.TextField(verbose_name='Тактико-технические характеристики')
@@ -79,6 +80,7 @@ class Weapon(models.Model):
     patron = models.ForeignKey(Patron, related_name='weapons', verbose_name='Патрон')
     country = models.ForeignKey(CountryFabricator, related_name='weapons', verbose_name='Страна производитель')
     history = models.ForeignKey(ModelWeapon, related_name='+', verbose_name='История модели')
+    pub_date = models.DateTimeField()
 
     class Meta:
         verbose_name = 'Оружие'
@@ -86,15 +88,14 @@ class Weapon(models.Model):
 
     def __unicode__(self):
         return self.title
-
     def get_absolute_url(self):
         return "/cw/%i/" % self.id
-
     def get_url_history(self):
         return "/cw/%i/%d/" % (self.id, self.history.id)
-
     def get_url_patron(self):
         return "/cw/%i/p/%g/" % (self.id, self.patron.id)
+
+
 
 
 

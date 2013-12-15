@@ -1,3 +1,4 @@
+{% load i18n %}
 <!DOCTYPE html>
 <html lang="ru">
     <head>
@@ -33,8 +34,8 @@
                 <li><a href="{% url 'list' %}" class="">Отчет</a></li>
             </ul>-->
                     <form class="form-search" align="right">
-                    <input type="text" class="input-medium search-query">
-                    <button type="submit" class="btn">Найти</button>
+                      <input type="text" class="input-medium search-query">
+                      <button type="submit" class="btn">Найти</button>
                     </form>
         </div>
     </div>
@@ -43,7 +44,7 @@
 
 
 <div class="container">
-     {% block content %}Empty page{% endblock %}
+     {% block content %} Empty page {% endblock %}
 </div> <!-- container -->
 
 </body>

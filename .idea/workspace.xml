@@ -26,19 +26,38 @@
       <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dj_project/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="100" column="0" selection-start="2984" selection-end="2984" vertical-scroll-proportion="0.0" vertical-offset="788" max-vertical-offset="1590">
+            <state line="82" column="36" selection-start="2630" selection-end="2630" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1620">
+              <folding>
+                <element signature="e#15#54#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dj_project/templates/search/search.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="23" selection-start="212" selection-end="212" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="660">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="patron_detail.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dj_project/templates/dj_project/patron_detail.html">
+      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cw/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="14" selection-start="246" selection-end="246" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="180">
+            <state line="49" column="24" selection-start="1256" selection-end="1256" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1620">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search_indexes.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dj_project/search_indexes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="0" selection-start="660" selection-end="660" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
               <folding>
-                <element signature="e#64#83#0" expanded="true" />
-                <element signature="e#146#165#0" expanded="true" />
+                <element signature="e#15#30#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -47,25 +66,7 @@
       <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dj_project/templates/dj_project/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="26" selection-start="1472" selection-end="1472" vertical-scroll-proportion="0.22413793" vertical-offset="477" max-vertical-offset="825">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dj_project/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="47" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dj_project/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="18" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+            <state line="35" column="58" selection-start="1316" selection-end="1316" vertical-scroll-proportion="0.7753479" vertical-offset="135" max-vertical-offset="840">
               <folding />
             </state>
           </provider>
@@ -80,10 +81,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="weapon_list.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dj_project/templates/dj_project/weapon_list.html">
+      <file leaf-file-name="patron_detail.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dj_project/templates/dj_project/patron_detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="225">
+            <state line="6" column="14" selection-start="246" selection-end="246" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="180">
               <folding />
             </state>
           </provider>
@@ -92,9 +93,29 @@
       <file leaf-file-name="weapon_detail.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dj_project/templates/dj_project/weapon_detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="219" selection-end="582" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="240">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="240">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dj_project/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="0" selection-start="457" selection-end="505" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
               <folding>
-                <element signature="e#306#325#0" expanded="true" />
+                <element signature="e#15#66#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cw/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="37" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -110,30 +131,49 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/manage.py" />
-        <option value="$PROJECT_DIR$/dj_project/templates/dj_project/search.html" />
-        <option value="$PROJECT_DIR$/dj_project/templates/dj_project/history_model.html" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/dj_project/templates/dj_project/modelweapon_detail.html" />
         <option value="$PROJECT_DIR$/dj_project/templates/dj_project/weapon_list.html" />
         <option value="$PROJECT_DIR$/dj_project/search_sites.py" />
-        <option value="$PROJECT_DIR$/dj_project/search_indexes.py" />
         <option value="$PROJECT_DIR$/dj_project/admin.py" />
-        <option value="$PROJECT_DIR$/Cw/settings.py" />
         <option value="$PROJECT_DIR$/dj_project/templates/dj_project/weapon_detail.html" />
-        <option value="$PROJECT_DIR$/dj_project/urls.py" />
         <option value="$PROJECT_DIR$/dj_project/views.py" />
-        <option value="$PROJECT_DIR$/dj_project/models.py" />
         <option value="$PROJECT_DIR$/dj_project/templates/dj_project/patron_detail.html" />
+        <option value="$PROJECT_DIR$/static/bootstrap/js/search.js" />
+        <option value="$PROJECT_DIR$/dj_project/templates/dj_project/search.html" />
+        <option value="$PROJECT_DIR$/dj_project/models.py" />
+        <option value="$PROJECT_DIR$/dj_project/search_indexes.py" />
+        <option value="$PROJECT_DIR$/dj_project/templates/search/indexes/dj_project/note_text.txt" />
+        <option value="$PROJECT_DIR$/Cw/settings.py" />
+        <option value="$PROJECT_DIR$/dj_project/urls.py" />
         <option value="$PROJECT_DIR$/dj_project/templates/dj_project/base.html" />
+        <option value="$PROJECT_DIR$/Cw/urls.py" />
+        <option value="$PROJECT_DIR$/dj_project/templates/search/search.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="48" />
-    <option name="y" value="-4" />
-    <option name="width" value="1319" />
-    <option name="height" value="773" />
+    <option name="x" value="49" />
+    <option name="y" value="29" />
+    <option name="width" value="1317" />
+    <option name="height" value="734" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyUnresolvedReferencesInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -165,27 +205,27 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Coursework" />
+              <option name="myItemId" value="cw" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Coursework" />
+              <option name="myItemId" value="cw" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Coursework" />
+              <option name="myItemId" value="cw" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Coursework" />
+              <option name="myItemId" value="cw" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Coursework" />
+              <option name="myItemId" value="cw" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -195,33 +235,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Coursework" />
+              <option name="myItemId" value="cw" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Coursework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dj_project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dj_project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Coursework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Coursework" />
+              <option name="myItemId" value="cw" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -252,6 +270,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dj_project/templates/search" />
       <recent name="$PROJECT_DIR$/dj_project/templates/dj_project" />
       <recent name="$PROJECT_DIR$/dj_project" />
     </key>
@@ -507,7 +526,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="48" y="-4" width="1319" height="773" extended-state="6" />
+    <frame x="49" y="29" width="1317" height="734" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -515,11 +534,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.49960536" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24940805" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16653512" sideWeight="0.6876007" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18735178" sideWeight="0.6891892" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23125494" sideWeight="0.28663447" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.50039464" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31239936" sideWeight="0.49960536" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3108108" sideWeight="0.49960536" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -559,35 +578,107 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dj_project/templates/dj_project/weapon_list.html">
+    <entry file="file://$USER_HOME$/.virtualenvs/cw/lib/python2.7/site-packages/django/template/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="591">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="20115">
+          <folding>
+            <element signature="e#0#56#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/cw/lib/python2.7/site-packages/django/db/backends/sqlite3/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0" vertical-offset="855" max-vertical-offset="8070">
+          <folding>
+            <element signature="e#123#162#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/cw/lib/python2.7/site-packages/haystack/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="424">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dj_project/views.py">
+    <entry file="file://$USER_HOME$/.virtualenvs/cw/lib/python2.7/site-packages/haystack/management/commands/rebuild_index.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="18" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="424">
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/cw/lib/python2.7/site-packages/haystack/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3570">
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dj_project/templates/search/indexes/dj_project/note_text.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="17" selection-start="68" selection-end="68" vertical-scroll-proportion="0.054347824" vertical-offset="0" max-vertical-offset="552">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cw/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="24" selection-start="1256" selection-end="1256" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1620">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dj_project/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="47" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+        <state line="11" column="0" selection-start="457" selection-end="505" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+          <folding>
+            <element signature="e#15#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cw/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="37" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dj_project/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="36" selection-start="2630" selection-end="2630" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1620">
+          <folding>
+            <element signature="e#15#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dj_project/templates/search/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="23" selection-start="212" selection-end="212" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="660">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dj_project/templates/dj_project/weapon_detail.html">
+    <entry file="file://$PROJECT_DIR$/dj_project/search_indexes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="219" selection-end="582" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="240">
+        <state line="19" column="0" selection-start="660" selection-end="660" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
           <folding>
-            <element signature="e#306#325#0" expanded="true" />
+            <element signature="e#15#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -599,26 +690,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dj_project/models.py">
+    <entry file="file://$PROJECT_DIR$/dj_project/templates/dj_project/patron_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="0" selection-start="2984" selection-end="2984" vertical-scroll-proportion="0.0" vertical-offset="1193" max-vertical-offset="1590">
+        <state line="6" column="14" selection-start="246" selection-end="246" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="180">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dj_project/templates/dj_project/patron_detail.html">
+    <entry file="file://$PROJECT_DIR$/dj_project/templates/dj_project/weapon_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="14" selection-start="246" selection-end="246" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="180">
-          <folding>
-            <element signature="e#64#83#0" expanded="true" />
-            <element signature="e#146#165#0" expanded="true" />
-          </folding>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dj_project/templates/dj_project/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="26" selection-start="1472" selection-end="1472" vertical-scroll-proportion="0.22413793" vertical-offset="477" max-vertical-offset="825">
+        <state line="35" column="58" selection-start="1316" selection-end="1316" vertical-scroll-proportion="0.7753479" vertical-offset="135" max-vertical-offset="840">
           <folding />
         </state>
       </provider>

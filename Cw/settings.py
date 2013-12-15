@@ -27,6 +27,13 @@ TEMPLATE_DEBUG = True
 ALLOWED_HOSTS = []
 
 
+HAYSTACK_CONNECTIONS = {
+    'default': {
+        'ENGINE': 'haystack.backends.whoosh_backend.WhooshEngine',
+        'PATH': os.path.join(os.path.dirname(__file__), 'whoosh_index'),
+    },
+}
+
 # Application definition
 
 INSTALLED_APPS = (
@@ -38,6 +45,9 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'haystack',
+    'django_extensions',
 
 )
 
@@ -88,4 +98,5 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
 
-
+# Sphinx 0.9.9
+SPHINX_API_VERSION = 0x116
