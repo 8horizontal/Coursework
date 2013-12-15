@@ -2,7 +2,7 @@
 {% block content %}
     {% for weapon in object_list %}
         <h2><a href="{{ weapon.get_absolute_url }}">{{ weapon.model }}</a></h2>
-        <p>{{ weapon.mark }}  {{ weapon.country }}</p>
+        <p>{{ weapon.mark }}</p>
     {% empty %}
     <p>Нет постов</p>
     {% endfor %}

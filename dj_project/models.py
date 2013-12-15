@@ -1,4 +1,5 @@
 #coding: utf-8
+from __future__ import unicode_literals
 from django.db import models
 
 
@@ -58,7 +59,7 @@ class TypeWeapon(models.Model):
 class Patron(models.Model):
     title = models.CharField(max_length=50, verbose_name='Патрон по виду оружия')
     type_patron = models.CharField(max_length=50, verbose_name='Тип патрона')
-    characteristic = models.CharField(max_length=200, verbose_name='Характеристика патрона')
+    characteristic = models.TextField(verbose_name='Характеристика патрона')
 
     class Meta:
         verbose_name = 'Патрон'

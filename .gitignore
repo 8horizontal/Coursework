@@ -2,10 +2,6 @@
 *.pot
 *.pyc
 local_settings.py
-
-
-db.sqlite3
-
-
-/.idea
-#/dj_project/templates/dj_project/*.html
+#db.sqlite3
+.idea/
+#dj_project/templates/dj_project/*.html
