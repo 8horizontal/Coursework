@@ -68,6 +68,9 @@ class Patron(models.Model):
     def __unicode__(self):
         return self.type_patron
 
+    def get_absolute_url(self):
+        return "/%g/" % self.id
+
 
 class Weapon(models.Model):
     title = models.CharField(max_length=50, verbose_name='Тип оружия')
@@ -89,6 +92,9 @@ class Weapon(models.Model):
 
     def get_url_history(self):
         return "/cw/%i/%d/" % (self.id, self.history.id)
+
+    def get_url_patron(self):
+        return "/cw/%i/p/%g/" % (self.id, self.patron.id)
 
 
 

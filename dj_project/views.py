@@ -15,3 +15,6 @@ class WeaponDetailView(DetailView):  # детализированное пред
 class ModelWeaponDetailView(DetailView):  # детализированное представление модели
     model = ModelWeapon
 
+
+class PatronDetailView(DetailView):
+    model = Patron

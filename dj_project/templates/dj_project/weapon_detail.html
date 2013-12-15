@@ -4,6 +4,8 @@
     <p style="color: blue">Тип оружия:</p><p>{{ weapon.title }}</p>
     <p style="color: blue">Марка:</p><p>{{ weapon.mark }}</p>
     <p style="color: blue">Страна производитель:</p><p>{{ weapon.country }}</p>
+    <p style="color: blue">Используемые боеприпасы:</p><a href="{{ weapon.get_url_patron }}">
+    <p>{{ weapon.patron}}</a></p>
     <p><a href="{{ weapon.get_url_history }}">
         <button type="submit" class="btn">Показать дополнительную информацию</button></a></p>
 {% endblock %}
