@@ -75,8 +75,8 @@ class Patron(models.Model):
 
 class Weapon(models.Model):
     title = models.CharField(max_length=50, verbose_name='Тип оружия')
-    mark = models.ForeignKey(ManufacturerWeapon, related_name='+', verbose_name='Производитель оружия')
     model = models.ForeignKey(ModelWeapon, related_name='+', verbose_name='Модель оружия')
+    mark = models.ForeignKey(ManufacturerWeapon, related_name='+', verbose_name='Производитель оружия')
     patron = models.ForeignKey(Patron, related_name='weapons', verbose_name='Патрон')
     country = models.ForeignKey(CountryFabricator, related_name='weapons', verbose_name='Страна производитель')
     history = models.ForeignKey(ModelWeapon, related_name='+', verbose_name='История модели')
