@@ -8,5 +8,5 @@ admin.autodiscover()
 urlpatterns = patterns('',
     url(r'^cw/', include('dj_project.urls')),
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^search/', include('haystack.urls')),
+
 )

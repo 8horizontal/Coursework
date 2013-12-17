@@ -8,3 +8,4 @@ admin.site.register(ModelWeapon)
 admin.site.register(CountryFabricator)
 admin.site.register(TypeWeapon)
 admin.site.register(Patron)
+

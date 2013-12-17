@@ -1,11 +1,11 @@
 #coding: utf-8
 from __future__ import unicode_literals
+from this import s
 from django.db import models
 
 
-
 class ModelWeapon(models.Model):
-    title = models.CharField(max_length=30, verbose_name='Модель оружия')
+    title = models.CharField(max_length=50, verbose_name='Модель оружия')
     ttc = models.TextField(verbose_name='Тактико-технические характеристики')
     history = models.TextField(verbose_name='История модели')
 
@@ -61,6 +61,7 @@ class Patron(models.Model):
     title = models.CharField(max_length=50, verbose_name='Патрон по виду оружия')
     type_patron = models.CharField(max_length=50, verbose_name='Тип патрона')
     characteristic = models.TextField(verbose_name='Характеристика патрона')
+    count = 7
 
     class Meta:
         verbose_name = 'Патрон'
@@ -74,7 +75,7 @@ class Patron(models.Model):
 
 
 class Weapon(models.Model):
-    title = models.CharField(max_length=50, verbose_name='Тип оружия')
+    title = models.CharField(max_length=100, verbose_name='Тип оружия')
     model = models.ForeignKey(ModelWeapon, related_name='+', verbose_name='Модель оружия')
     mark = models.ForeignKey(ManufacturerWeapon, related_name='+', verbose_name='Производитель оружия')
     patron = models.ForeignKey(Patron, related_name='weapons', verbose_name='Патрон')
@@ -88,12 +89,20 @@ class Weapon(models.Model):
 
     def __unicode__(self):
         return self.title
+
     def get_absolute_url(self):
         return "/cw/%i/" % self.id
+
     def get_url_history(self):
         return "/cw/%i/%d/" % (self.id, self.history.id)
+
     def get_url_patron(self):
         return "/cw/%i/p/%g/" % (self.id, self.patron.id)
+
+
+
+
+
 
 
 

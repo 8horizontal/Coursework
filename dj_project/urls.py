@@ -10,6 +10,7 @@ urlpatterns = patterns('',
     url(r'^([0-9]+?)/(?P<pk>\d+)/$', ModelWeaponDetailView.as_view()),
     url(r'^([0-9]+?)/(p)/(?P<pk>\d+)/$', PatronDetailView.as_view()),
     url(r'^search/', include('haystack.urls')),
+    url(r'^report/', PatronListView.as_view()),
 
     url(r'^dj_project/$', 'django.views.static.serve',
         {'document_root': '/home/god/work/Coursework/dj_project/templates/dj_project'}),
