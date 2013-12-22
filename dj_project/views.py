@@ -23,10 +23,5 @@ class PatronDetailView(DetailView):
 class PatronListView(ListView):
     model = Patron
 
-    def get_context_data(self, **kwargs):
-        ctx = super(PatronListView, self).get_context_data(**kwargs)
-        ctx['sum'] = Patron.count
-        return ctx
-
 
 

@@ -61,7 +61,8 @@ class Patron(models.Model):
     title = models.CharField(max_length=50, verbose_name='Патрон по виду оружия')
     type_patron = models.CharField(max_length=50, verbose_name='Тип патрона')
     characteristic = models.TextField(verbose_name='Характеристика патрона')
-    count = 7
+    #count = models.Count()
+    #count = 7
 
     class Meta:
         verbose_name = 'Патрон'
